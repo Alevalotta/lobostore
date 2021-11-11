@@ -1,0 +1,192 @@
+body {
+  background-color: white;
+   margin-left: 5px; 
+}
+
+#logo {
+  margin-left: 10px;
+}
+
+.letras {
+  font-size: 20px;
+}
+
+.secciones {
+  margin-top: 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.secciones ul a {
+  list-style-type: none;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.estiloFooter {
+  background-color: rgba(0, 0, 0, 0.493);
+  margin-top: 10px;
+  color: white; 
+  
+}
+
+#consejosImg {
+  display: block;
+  margin: auto;
+}
+
+.boton-personalizado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: white; 
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgba(7, 14, 1, 0.404);  
+}
+
+.cajaSecciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.imgSecciones {
+  margin-top: 25px;
+  border: 1px black solid;
+}
+
+.preguntas{
+  font-family: Arial, Helvetica, sans-serif; 
+  color: darkkhaki; 
+  background-color: black;
+  text-align: center; 
+  font-size: xx-large; 
+
+  }
+
+  .pregunta1{
+      width: 200;
+      height: 200;
+      background-color: black;
+      margin: 20px; 
+      padding: 10px; 
+      border: 2px solid white;
+      
+       }
+       .pregunta1 h1 {
+          font-family: Arial, Helvetica, sans-serif; 
+          color: darkkhaki; 
+          background-color: black;
+          text-align: center; 
+          font-size: xx-large; 
+       }
+       .wrap{  
+        text-align: center;  
+        background-color: black;
+        color: white; 
+    }  
+     
+       .pregunta1 p{
+       color: whitesmoke ;   
+       font-size: 12pt; 
+       letter-spacing: 1px; 
+       font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .pregunta2{
+      width: 200;
+      height: 200;
+      background-color: black;
+      margin: 20px; 
+      padding: 20px; 
+      border: 2px solid white; 
+      
+      }
+
+      .pregunta2 h1 { 
+          font-family: Arial, Helvetica, sans-serif; 
+          color: darkkhaki; 
+          background-color: black;
+          text-align: center; 
+          font-size: xx-large; 
+      }
+
+      .pregunta2 p{ 
+          color: whitesmoke ;   
+          font-size: 12pt; 
+          letter-spacing: 1px; 
+          font-family: Arial, Helvetica, sans-serif;
+         } 
+        .pregunta3 {
+          text-align: center;
+          background-color: black;
+          color: white; 
+          font-size: xx-large; 
+         } 
+
+@media (max-widht: 992px) {
+  body header .letras2 {
+    font-size: 25px;
+  }
+  body main .letras {
+    font-size: 30px;
+  }
+  body main #consejosImg {
+    width: 50px;
+    height: 150px;
+  }
+}
+
+@media (max-widht: 768px) {
+  body header .letras2 {
+    font-size: 30px;
+  }
+  body main .letras {
+    font-size: 35px;
+  }
+  body main #consejosImg {
+    width: 50px;
+    height: 150px;
+  }
+}
+
+@media (max-widht: 576px) {
+  body header .letras2 {
+    font-size: 25px;
+  }
+  body main .letras {
+    font-size: 20px;
+  }
+  body main #consejosImg {
+    width: 50px;
+    height: 150px;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */

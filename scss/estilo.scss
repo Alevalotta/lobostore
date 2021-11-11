@@ -1,0 +1,121 @@
+@mixin letra {
+    color: black;
+    text-align: center;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+@mixin cajas {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    margin-top: 10px;
+}
+body{
+    background-color: white;
+    margin-left: 5px;
+}
+#logo{
+    margin-left: 10px;}
+
+.letras {
+    font-size: 20px;
+}
+.secciones{
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    ul a{
+        list-style-type: none;
+    }
+}
+
+h2{
+    @include letra();
+}
+.estiloFooter{
+    background-color:rgba(0, 17, 255, 0.041); 
+    margin-top: 10px;
+    }
+#consejosImg{
+    display: block;
+    margin:auto;
+}
+.boton-personalizado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+    font-weight:500;
+    font-size:20px;
+    color:white; 
+    padding-top:10px;
+    padding-bottom:20px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:rgba(255, 208, 0, 0);
+}
+.cajaSecciones{
+    @include cajas();
+}
+.imgSecciones{
+    margin-top: 25px;
+    border: 1px black solid;
+}
+
+@media (max-widht: 992px){
+    body{
+        header{
+            .letras2{
+                font-size: 25px;
+            }
+        }
+        main{
+            .letras{
+                font-size: 30px;
+            }
+            #consejosImg{
+                width: 50px;
+                height: 150px;
+            }
+        }
+    }
+}
+@media (max-widht: 768px){
+    body{
+        header{
+            .letras2{
+                font-size: 30px;
+            }
+        }
+        main{
+            .letras{
+                font-size: 35px;
+            }
+            #consejosImg{
+                width: 50px;
+                height: 150px;
+            }
+        }
+    }
+}
+@media (max-widht: 576px){
+    body{
+        header{
+            .letras2{
+                font-size: 25px;
+            }
+        }
+        main{
+            .letras{
+                font-size: 20px;
+            }
+            #consejosImg{
+                width: 50px;
+                height: 150px;
+        }
+        }
+    }
+}
